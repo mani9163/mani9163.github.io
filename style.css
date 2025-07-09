@@ -1,0 +1,48 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Inter;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border: 2px solid black;
+}
+.navlink{
+    display: flex;
+    gap: 20px;
+}
+#hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-text-container{
+    width: 100%;
+    display: flex;
+}
+
+.left-vertical-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 109.59px 0 60px;
+    /* padding: 60px 0; */
+} 
+.left-vertical-text-container>div{
+    text-align: center;
+    transform: rotate(-90deg);
+}
+#vertical-line{
+    width:100px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: grey;
+}
+#product-design, #year{
+    white-space: nowrap;
+}
